@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+}
+section.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    top: 1%;
+    margin-right: 1%;
+    z-index: 1;
+
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+a.nav{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #f2f2f2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+a.nav:hover{
+    border-bottom: 2px solid #F20505;
+    opacity: 0.9;
+}
+span{
+    color: #f2f2f2;
+}
+
+section.main{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/gr-stocks-q8P8YoR6erg-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+div.head{
+    margin-right: 10px;
+}
+h1{
+    font-size: 4.5rem;  
+    color: #F20505;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+h2.first{
+    font-size: 3rem;  
+    color: #F20505;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+.main h3{
+    font-size: 1.5rem;
+    color: #F20505;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+/*MIDDLE SECTION*/
+section.middle{
+    width: 100%;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#F2CB05;
+}
+div.content{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.content h2{
+    color: #f2f2f2;
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+div.paragraph{
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+a.netflix{
+    color: #F20505;
+    font-weight: 700;
+}
+span.red{
+    color:#F20505;
+}
+section.figures{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;   
+}
+figure{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+max-width: 30%;
+height: auto;
+overflow: hidden;
+}
+/*SECONDAY BANNER*/
+section.secondary{
+    width: 98%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 180px;
+    background-image: url("images/georgia-vagim-ny-lHmsHYHk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+h2.test{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 10px 10px #F2CB05;
+    font-size: 4rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #F20505;
+    margin-top: 7%;
+    padding: 1% 1%;
+}
+a.button{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #F20505;
+    color: #f2f2f2;
+    padding: 1% 1%;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 7%;
+}
+a.button:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    background-color: #f2f2f2;
+    color: #F20505;
+    border: 3px dotted #F2CB05;
+}
+/*BOXES*/
+section.boxes{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+.boxes h2{
+    font-size: 3rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #F20505;
+}
+div.container{
+width: 100%;
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+div.box{
+border: 2px solid #F20505;
+box-shadow: 15px 15px #F2CB05;
+height: 70%;
+width: 20%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 5px;
+}
+h3 {
+    padding: 0 5px;
+    color: #F20505;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+
+}    
+a.click{
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    padding: 2% 2%;
+    color: #f2f2f2;
+    background-color: #F20505;
+    border-radius: 5px;
+}
+a.click:hover{
+    opacity: 0.8;
+    background-color: #f2f2f2;
+    color: #F20505;
+    border: 2px solid #F2CB05;
+}
+/*FOOTER*/
+section.footer{
+width: 100%;
+height: 70px;
+background-color: #F2CB05;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+a.foot{
+    margin: 0 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+    color:#f2f2f2;
+    text-decoration: none;
+}
+a.foot:hover{
+    border-bottom: 2px solid #F20505;
+    opacity: 0.9;
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px){
+    
+
+}
